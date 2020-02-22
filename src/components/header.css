@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.link-box {
+  flex-basis: 25%;
+  list-style: none;
+}
+
+.link-box > a {
+  font-style: none;
+}

@@ -2,3 +2,7 @@ html {
     font-size: 24px;
     background: rgba(0, 0, 0, 0.15);
 }
+
+a {
+    text-decoration: none;
+}

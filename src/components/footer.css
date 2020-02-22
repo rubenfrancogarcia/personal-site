@@ -1,0 +1,8 @@
+footer {
+    min-width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
