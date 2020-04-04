@@ -22,3 +22,8 @@ gatsby develop
 In a browser, go to localhost:8000
 
 ---
+
+# See the live site 
+
+deployed with Netlify 
+https://elastic-booth-92a546.netlify.com/ 
