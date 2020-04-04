@@ -1,0 +1,39 @@
+/* this is for less than 1000px but greater than 500px*/
+
+
+.big-post-title {
+    grid-column: 2/ span 3;
+    grid-row: 1;
+}
+
+.big-post-social-share {
+    grid-column: 5;
+    grid-row: 3;
+    justify-self: center;
+    align-self: start;
+    
+}
+
+.big-post-blog-content {
+    grid-column: 2/6;
+    grid-row: 2;
+
+}
+
+.big-post-info {
+    grid-column:5/6;
+    grid-row: 1;
+    justify-self: right;
+    align-self: end;
+}
+
+.big-post-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: 75px 4fr 1fr ;
+
+}
+
+.big-post-author p{
+    margin: 0;
+}

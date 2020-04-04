@@ -1,28 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
 import "./footer.css"
+import HomeIcon from '@material-ui/icons/Home';
+
 
 const Footer = () => {
     return(
         <footer>
+
             
-                    <div className="social-links grid">
-                        <div className="linkedin">
-                            <p> link</p>
-                        </div>
-                        <div className="github">
-                        <p> link</p>
-                        </div>
-                        <div className="twitter">
-                        <p> link</p>
-                        </div>
-                        <div className="portfolio">
-                        <p> link</p>
-                        </div>
-                        <div className="home"> 
-                        <p> link</p>
-                        </div>
-                    </div>
+                  
+                <div className="home"> 
+                <Link to="/"><HomeIcon/></Link>
+                    {/* how to make media queries with size, make default small for mobile*/}                        
+                </div>
 
                 
         </footer>

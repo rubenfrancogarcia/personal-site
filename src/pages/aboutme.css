@@ -1,0 +1,40 @@
+.about-me-social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-div {
+ grid-row: 3;
+ grid-column: 2/3;
+ display: grid;
+ grid-template-rows: 1fr 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-items: start;
+}
+
+.social-info {
+  grid-row: 1;
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.about-me-social-media {
+  grid-row: 2/3;
+  grid-column: 1/-1;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 600px));
+  grid-template-rows: 100px 6fr 4fr;
+}
+
+.about-me-content {
+  grid-row: 2;
+  grid-column: 2/3;
+}
+
+.about-me-title {
+  grid-row: 1;
+  grid-column: 2/3;
+}

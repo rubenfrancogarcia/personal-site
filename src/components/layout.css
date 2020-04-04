@@ -1,0 +1,10 @@
+.content-container {
+    margin: 10px 40px 0 40px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .content-container{
+        margin: 0;
+    }
+}

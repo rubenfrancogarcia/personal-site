@@ -1,0 +1,9 @@
+.big-post-page-container {
+    display: grid;
+    grid-template-columns: minmax(10px, 1fr) minmax(200px, 7fr) minmax(10px, 1fr);
+
+}
+
+.big-blog-post-container {
+    grid-column: 2/3;
+}

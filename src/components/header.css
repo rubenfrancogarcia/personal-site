@@ -3,11 +3,14 @@ nav {
   justify-content: flex-end;
   margin-right: 20px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .link-box {
   flex-basis: 25%;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .link-box > a {

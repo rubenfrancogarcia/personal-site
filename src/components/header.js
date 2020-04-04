@@ -10,12 +10,11 @@ const Header = ({ siteTitle }) => (
             <li>
               <Link to="/">Home</Link>
             </li>
+          <li>
+            <Link to="/aboutme/">About</Link>
+          </li>
 
           </div>
-         <div className="link-box">
-          <li> <Link to="/blogpage/">Blog</Link>
-            </li>
-           </div> 
       </nav>
   </header>
 )

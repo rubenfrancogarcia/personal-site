@@ -1,25 +1,17 @@
 import React from "react"
 import Layout from "../components/layout";
-import Article from "../components/article"
+import Bigblogpost from "../components/bigblogpost"
+import "./blogpage.css"
 
 const BlogPage = () => {
     return (
         <Layout>
-            <div className="container grid"> 
-            <h1> Blog Posts</h1>
-                <main>
-                    <Article>
+            <div className="big-post-page-container">
+                <div className="big-blog-post-container">
 
-                    </Article>
-                    <Article>
-
-                    </Article>
-                    <Article>
-
-                    </Article>
-                </main>
+                    <Bigblogpost /> 
+                </div>
             </div>
-            
         </Layout>
     )
 }

@@ -1,8 +1,22 @@
 html {
-    font-size: 24px;
-    background: rgba(0, 0, 0, 0.15);
-}
+    font-size: 12px;
+    background: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    }
 
 a {
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 0.95em;
+    }
+}
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 1em;
+    }
 }
