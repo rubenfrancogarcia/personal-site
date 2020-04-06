@@ -4,6 +4,7 @@ nav {
   margin-right: 20px;
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 12px;
 }
 
 .link-box {
@@ -16,3 +17,10 @@ nav {
 .link-box > a {
   font-style: none;
 }
+
+
+@media only screen and (min-width: 800px) {
+  .link-box  {
+    font-size: 1.5em;
+  }
+} 

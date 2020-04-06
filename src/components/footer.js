@@ -11,7 +11,7 @@ const Footer = () => {
             
                   
                 <div className="home"> 
-                <Link to="/"><HomeIcon/></Link>
+                <Link to="/"><HomeIcon fontSize="large"/></Link>
                     {/* how to make media queries with size, make default small for mobile*/}                        
                 </div>
 
