@@ -1,3 +1,8 @@
+.about-me-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
 .about-me-social-media {
   display: flex;
   justify-content: space-evenly;
@@ -25,16 +30,17 @@
 
 .about-me-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 600px));
-  grid-template-rows: 100px 6fr 4fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 2/3;
 }
 
 .about-me-content {
   grid-row: 2;
-  grid-column: 2/3;
+  grid-column: 1/4;
 }
 
 .about-me-title {
   grid-row: 1;
-  grid-column: 2/3;
+  grid-column: 1/4;
+  justify-self: center;
 }

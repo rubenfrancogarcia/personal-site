@@ -10,3 +10,22 @@
 }
 
 
+@media only screen and (max-width: 500px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .home-container {
+        grid-template-columns: minmax(0px, 1fr) minmax(370px, 3fr) minmax(0px, 1fr);
+
+    }
+
+    
+    
+}
+
+
+

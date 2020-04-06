@@ -10,42 +10,45 @@ import "./aboutme.css"
 const AboutMe = () => {
     return (
       <Layout>
-
+        <div className="about-me-layout">
           <div className="about-me-container">
-              <div className='about-me-title'>
-            <h1>Justo Iaculis</h1>
-              </div>
-            
-                <div className="about-me-content">
-                    <h2> Hello</h2>
-                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
-                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
-                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
-                    <p>Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
-                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
-                    <p>Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
-                </div>
-                <div className="social-div">
-                    <div className="social-info">
-                      <h3> Let's Connect</h3>
-                    </div>
-                    <div className='about-me-social-media'>
-                      <div className="linkedin">
-                        <a href="https://www.linkedin.com/in/rubengarcia12/">  <LinkedInIcon /></a>
+            <div className='about-me-title'>
+              <h1>Justo Iaculis</h1>
+            </div>
 
-                      </div>
-                      <div className="github">
-                        <a href="https://github.com/rubenfrancogarcia">  <GitHubIcon /></a>
-                      </div>
-                      <div className="twitter">
-                        <a href="https://twitter.com/ruben_garcia_f"> <TwitterIcon /></a>
-                      </div>
-                      <div className="portfolio">
-                        <a href="https://rubenfgarcia.me/"><WorkOutlineIcon /></a>
-                      </div>
-                  </div>
+            <div className="about-me-content">
+              <h2> Hello</h2>
+              <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
+              <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
+              <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
+              <p>Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
+              <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
+              <p>Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
+            </div>
+            <div className="social-div">
+              <div className="social-info">
+                <h3> Let's Connect</h3>
+              </div>
+              <div className='about-me-social-media'>
+                <div className="linkedin">
+                  <a href="https://www.linkedin.com/in/rubengarcia12/">  <LinkedInIcon /></a>
+
                 </div>
-         </div> 
+                <div className="github">
+                  <a href="https://github.com/rubenfrancogarcia">  <GitHubIcon /></a>
+                </div>
+                <div className="twitter">
+                  <a href="https://twitter.com/ruben_garcia_f"> <TwitterIcon /></a>
+                </div>
+                <div className="portfolio">
+                  <a href="https://rubenfgarcia.me/"><WorkOutlineIcon /></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+        </div>
+          
       </Layout>
     )
 }
