@@ -17,7 +17,7 @@ const BlogPost = () => {
                 </div>
                 
                 <div className="snippet-image-container">
-                    <img src={cat} />
+                    <img src={cat} alt="a cat" />
                 </div>
                
                 

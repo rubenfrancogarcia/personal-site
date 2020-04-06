@@ -13,11 +13,11 @@ const AboutMe = () => {
         <div className="about-me-layout">
           <div className="about-me-container">
             <div className='about-me-title'>
-              <h1>Justo Iaculis</h1>
+              <h2>Justo Iaculis</h2>
             </div>
 
             <div className="about-me-content">
-              <h2> Hello</h2>
+              <h3> Hello</h3>
               <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
               <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
               <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>                    <p> Litora tellus rutrum semper condimentum neque pharetra egestas imperdiet justo iaculis magnis dictum aenean. Mus integer nisi diam a donec accumsan, magna egestas potenti. Dapibus ut porta malesuada hendrerit litora.</p>
